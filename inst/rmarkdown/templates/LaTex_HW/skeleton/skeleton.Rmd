@@ -1,0 +1,42 @@
+---
+name : Your Name
+email : Email
+class : Class Name
+number: Homework Number
+output: 
+  pdf_document:
+    template: template.tex 
+---
+
+# About
+
+This document provide a demo on how to use this template
+
+\question*{Susskind and Friedman 1.1}
+Use \verb|\question*{TITLE}| to add a title for the question.
+
+\question
+A bare \verb|\question| will just be numbered. 
+
+\question
+More stuff
+
+
+
+### To make a allign latex equation （Remeber to include '&' in front of the '='）
+\begin{equation*}
+    \begin{split}
+      a &= b + c
+      b &= c - a
+    \end{split}
+\end{equation*}
+
+
+### To make a subsection
+\subsection*{a}
+
+### To make a serise of problem 
+\begin{enumerate}[label=(\alph*)]
+\item I am a problem 
+\item I am another problem
+\end{enumerate}
