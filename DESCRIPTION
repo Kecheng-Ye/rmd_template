@@ -3,7 +3,7 @@ Type: Package
 Title: Provide A LaTeX Homework Template
 Version: 0.1.0
 Author: Kecheng Ye
-Maintainer: kye@u.rochester.edu
+Maintainer: Kecheng Ye <kye@u.rochester.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
