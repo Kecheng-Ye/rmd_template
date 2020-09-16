@@ -8,9 +8,13 @@ output:
     template: template.tex 
 ---
 
-# About
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-This document provide a demo on how to use this template
+#### This document provide a demo on how to use this template
+
+\hfill\break\hfill\break
 
 \question*{Susskind and Friedman 1.1}
 Use \verb|\question*{TITLE}| to add a title for the question.
@@ -21,21 +25,19 @@ A bare \verb|\question| will just be numbered.
 \question
 More stuff
 
-
-
-### To make a allign latex equation （Remeber to include '&' in front of the '='）
+#### To make a allign latex equation
 \begin{equation*}
     \begin{split}
-      a &= b + c
+      a &= b + c \\
       b &= c - a
     \end{split}
 \end{equation*}
 
 
-### To make a subsection
+#### To make a subsection
 \subsection*{a}
 
-### To make a serise of problem 
+#### To make a serise of problem 
 \begin{enumerate}[label=(\alph*)]
 \item I am a problem 
 \item I am another problem
